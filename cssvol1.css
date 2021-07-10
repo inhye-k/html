@@ -1,0 +1,283 @@
+@charset "UTF-8";
+h1{
+	font-family: 'Shrikhand', cursive;;
+}
+a{
+	font-family: 'Acme', sans-serif;
+	text-decoration : none;
+}
+a:link{ color : #004000; }
+a:visited { color : #547A76; }
+a:hover{ color : #89C3BC; }
+a:active{ color : pink; }
+
+ul{
+ 	list-style-type : none;
+}
+
+ header, nav, aside, section, footer{
+ 	box-sizing : border-box;
+ }
+ header#main{
+ 	border : 1px solid #CEE7E4;
+ 	width : 100%;
+ 	height : 160px;
+ 	padding : 10px;
+ 	background-image : url("../images/title.jpg");
+ 	background-repeat : no-repeat;
+ }
+ header#main h1#h1hmain{
+ 	width : 100%;
+ 	text-align : center;
+ 	letter-spacing : 3px;
+ 	font-size : 3.5em;
+ }
+ header#main img#imghmain{
+ 	margin : 10px;
+ 	width : 100px;
+ 	height : 60px;
+ 	float : left;
+ 	margin-left : 40%;
+ }
+ nav#navmain{
+ 	border : 1px solid #CEE7E4;
+ 	width : 100%;
+	height : 60px;
+	background : #CEE7E4;
+ }
+ nav#navmain ul#ulnmain{
+ 	margin : 0px;
+ }
+ nav#navmain ul#ulnmain li.linmain{
+ 	width : 150px;
+ 	text-align : center;
+ 	list-style-type : none;
+ 	float: left;
+ 	letter-spacing : 5px;
+ 	font-size : 1.7em;
+ 	margin : 10px 75px;
+ }
+ nav#navmain ul#ulnmain li.mL{
+ 	width : 300px;
+ 	text-align : center;
+ 	list-style-type : none;
+ 	float: left;
+ 	letter-spacing : 5px;
+ 	font-size : 1.7em;
+ 	margin : 10px 75px;
+ }
+ nav#navmain ul#ulnmain div#navli{
+ 	clear : both;
+ }
+ 
+ 
+ 
+ aside#left{
+ 	border : 2px solid #CEE7E4;
+ 	border-left : none;
+ 	border-bottom : none;
+ 	border-top : none;
+ 	width : 300px;
+	height : 700px;
+	float : left; 
+	background : white;	
+ }
+ aside#left h1#h1almain{
+ 	font-family: 'Acme', sans-serif;
+ 	margin-top : 60px;
+ 	margin-bottom : 40px;
+ 	font-size : 1.6em;
+ 	letter-spacing : 5px;
+ }
+ aside#left ul#ulalmain li.cL{
+ 	background : #CEE7E4; 
+ 	width : 150px;
+ 	margin : 10px 0px;
+ 	font-size : 1.1em;
+ 	padding : 3px;
+ 	text-align : right;
+ 	font-weight : bold;
+ 	letter-spacing : 3px;
+ }
+
+
+
+ section#secmain{
+ 	width : 1286px;
+	height : 700px;
+ 	float : left; 
+ }
+ section#secmain article#artsecmain iframe#ifsartsec{
+ 	width : 1286px;
+ 	height : 690px;
+ }
+
+
+
+
+
+
+ div#secdiv{
+ 	margin : 100px 200px;
+ }
+ fieldset#secfieldset{
+ 	margin : 0px 10px;
+ 	width : 230px;
+ 	height : 500px;
+ 	float : left;
+ }
+ fieldset#secfieldset img#secimg{
+ 	width : 220px;
+ 	height : 250px;
+ }
+ fieldset#secfieldset audio{
+ 	width : 220px;
+ }
+ fieldset#secfieldset p.secp{
+ 	margin : 20px 0px;
+ }
+ input {
+  	margin-top : 8px;
+ }
+ div#secdiv1{
+ 	margin : 50px 200px;
+ }
+ div#secdiv1 fieldset#secfieldset1{
+ 	width : 300px;
+ 	height : 400px;
+ 	float : left;
+ 	margin-left : 30px;
+ }
+ div#secdiv1 fieldset#secfieldset1 img#secimg1{
+ 	width : 300px;
+ 	height : 380px;
+ }
+ video{
+    margin : 20px 200px;
+    width: 800px;
+    height : 300px;
+ }
+ 
+ 
+ 
+ 
+ form#cartform{
+ 	width : 700px;
+ 	height : 400px;
+ 	margin : 140px 200px;
+ }
+ form#cartform table#tabcart{
+ 	width : 550px;
+ 	height : 250px;
+ 	border : 2px solid #CEE7E4;
+ 	border-collapse : collapse;
+ }
+ table#tabcart caption#cartsub{
+ 	font-size : 2.5em;
+ 	height : 50px;
+ 	margin-bottom : 20px;
+ }
+ table#tabcart tr.tabtr{
+ 	width : 100%;
+ 	height : 25px;
+ }
+ table#tabcart td.subtd{
+ 	width : 100px;
+ 	height : 20px;
+ 	padding : 10px;
+ }
+ table#tabcart td.pricetd{
+ 	width : 120px;
+ 	padding : 10px;
+ }
+ table#tabcart td.oqty{
+ 	width : 100px;
+ }
+ table#tabcart input.qty, table#tabcart input.to{
+ 	width : 110px;
+ 	height : 15px;
+ 	margin-left : 10px;
+ }
+ table#tabcart tr.otabtr{
+  	width : 100%;
+ 	height : 25px;
+ 	font-weight : bold;
+ 	text-align : center;
+ }
+ form#cartform a{
+ 	font-size : 1.1em;
+ }
+ 
+ 
+
+ aside#right{
+ 	border : 2px solid #CEE7E4;
+ 	border-right : none;
+ 	border-bottom : none;
+ 	border-top : none;
+ 	width : 280px;
+	height : 700px;
+	float : right; 	
+	padding : 10px;
+ }
+ aside#right h1.h1armain{
+ 	font-family: 'Acme', sans-serif;
+ 	letter-spacing : 2px;
+ 	text-align : center;
+ }
+ aside#right div.px{
+ 	margin-top : 50px;
+ }
+ aside#right div#px2{
+ 	margin-top : 100px;
+ }
+ aside#right div.divarmain{
+ 	width : 250px;
+ }
+ aside#right form#formarmain{
+ 	margin : 0px 15%;
+ 	width : 250px;
+ }
+ aside#right p.parmain{
+ 	margin : 5px;
+ }
+ 
+ 
+ 
+ 
+ div#joindisplay{ 
+ 	margin : 150px 300px;
+ 	width : 400px;
+ }
+ fieldset#joinfield label{
+ 	display : inline-block;
+	width : 100px; 
+ }
+ fieldset#joinfield input#chk{
+ 	margin-left : 10px;
+ }
+ fieldset#joinfield input.radio{
+ 	margin : 0px 80px;
+ }
+ input.joinbt{
+ 	width : 150px;
+ }
+ 
+ 
+ 
+ 
+ footer#mainfooter{
+ 	border : 1px solid #CEE7E4;
+ 	width : 100%;
+	height : 50px;
+ 	clear : both;
+ 	background : #CEE7E4;
+ }
+ footer#mainfooter p#footerp{
+ 	width : 100%;
+ 	font-family: 'Acme', sans-serif;
+ 	text-align: center;
+ 	color : gray;
+ 	margin : 10px;
+ 	letter-spacing : 3px;
+ }

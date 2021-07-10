@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cart</title>
+<link rel="shortcut icon" type="image/x-icon" href="../images/star2.png"/>
+<link rel="stylesheet" href="../css/cssvol1.css">
+</head>
+<body>
+
+ <form id="cartform" name="cart">
+ 
+ <table id="tabcart" border="1">
+  
+  <caption id="cartsub"><a href="./cart.html">Shopping Cart</a></caption>
+  <tr class="otabtr">
+    <td class="osub">품목</td>
+    <td class="osub">가격</td>
+    <td class="osub">수량</td>
+    <td class="osub">합계</td>
+  </tr>
+  
+  <tr class="tabtr">
+    <td class="subtd">컴퓨터세트</td>
+    <td class="pricetd">2,000,000원</td>
+    <td><input class="qty" type="number" name="number" min="1" max="10" value="0" step="1"></td>
+    <td><input class="to" type="text" name="total" value="0"></td>
+  </tr>
+  
+  <tr class="tabtr">
+    <td class="subtd">티셔츠</td>
+    <td class="pricetd">50,000원</td>
+    <td><input class="qty" type="number" name="number" min="1" max="10" value="0" step="1"></td>
+    <td><input class="to" type="text" name="total" value="0"></td>
+  </tr>
+  
+  <tr class="tabtr">    
+    <td class="subtd">음악파일</td>
+    <td class="pricetd">1,000원</td>
+    <td><input class="qty" type="number" name="number" min="1" max="10" value="0" step="1"></td>
+    <td><input class="to" type="text" name="total" value="0"></td>
+  </tr>
+  
+  <tr class="tabtr">
+    <td class="subtd">영화파일</td>
+    <td class="pricetd">5,000원</td>
+    <td><input class="qty" type="number" name="number" min="1" max="10" value="0" step="1"></td>
+    <td><input class="to" type="text" name="total" value="0"></td>
+  </tr>
+  
+ </table>
+ 
+	 <input type="button" value="계산">
+	 <input type="button" value="구매">
+	 <input type="reset" value="초기화"><br>
+ 	 <a href="./computer.html">Back to Home</a>	 
+ 	 
+ </form>
+ 
+</body>
+</html>
